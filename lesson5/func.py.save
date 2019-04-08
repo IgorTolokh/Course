@@ -1,0 +1,47 @@
+def empty():
+	pass
+
+
+
+def mult(num):
+	return num*2
+
+
+
+def mod_2(num):
+	if num % 2 == 0:
+		return 'Yes'
+	else:
+		return 'No'
+
+
+
+def check(num1, num2):
+	if num1 > 10:
+		return 'Yes'
+	else:
+		return 'No'
+
+
+
+#g = lambda num1, num2: print(num1 % num2)
+#print(g(11, 5))
+
+
+
+def decor(func):
+	def wrap():
+		print('=========')
+		print(func())
+		print('=========')
+	return wrap#@decor
+#def hello():
+#	return('Hello world!')
+
+
+
+print(mult(2))
+print(mod_2(7))
+print(check(11, 2))
+#hello()
+
