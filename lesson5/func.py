@@ -41,7 +41,6 @@ def hello():
 
 
 # map and filter
-lst = [16, 12, 2, 4, 5, 11, 22]
 def func1(x):
 	return x + 2
 
@@ -120,9 +119,9 @@ print(parity(7))
 print(check_10(11, 2))
 print(g(11,2))
 hello()
-print(list(map(func1, lst)))
-print(list(filter(func2, lst)))
-print(minmax(lst))
+print(list(map(func1, [16, 12, 2, 4, 5, 11, 22])))
+print(list(filter(func2, [16, 12, 2, 4, 5, 11, 22])))
+print(minmax([16, 12, 2, 4, 5, 11, 22]))
 print(year_vis(2016))
 print(season(5))
 print(date())

@@ -1,0 +1,3 @@
+lst = [i for i in range(25)]o
+
+print(lst.min(), lst.max())
